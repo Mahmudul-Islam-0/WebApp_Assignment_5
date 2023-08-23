@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: burlywood;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.form_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#task_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.taskEntry{
+    width: 50vw;
+    height: 5vh;
+    border-radius: 15px;
+    padding-left: 5px;
+    border: none;
+}
+.submit_btn{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: none;
+}
+.task_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    font-size: x-large;
+}
